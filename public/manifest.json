@@ -1,0 +1,19 @@
+{
+  "name": "jan-homepage",
+  "description": "This is in fact a description, that I can not be bothered with writing.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "sessions",
+    "tabs"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
